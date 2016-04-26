@@ -1,0 +1,103 @@
+2016-04-10T19:09:10Z aon: --START--
+2016-04-10T19:09:10Z aon: 	os: 0x6011db1
+2016-04-10T19:09:10Z aon: 	version: 2.2.3
+2016-04-10T19:09:10Z aon: 	revision: 38806
+2016-04-10T19:09:10Z aon: 	path: /branches/isl_alwayson_2_2_2/ISLAlwaysOn
+2016-04-10T19:09:10Z aon: 	cwd: C:\Users\darknight\Desktop\sleekLoad2\js
+2016-04-10T19:09:10Z aon: 	pid: 1928
+2016-04-10T19:09:10Z system locale (win): GetUserDefaultLCID() = 0x409, langid = 0x409, primary = 0x9, sub = 0x1
+2016-04-10T19:09:10Z system locale (win): matching language from list: [ar, bg, ca, cs, da, de, en, es, fr, hi, hr, it, ja, nl, pl, ptbr, pt, ro, ru, sl, sr, srl, zh, zhs]
+2016-04-10T19:09:10Z system locale (win): ... ok, match found: en
+2016-04-10T19:09:10Z aon_main::main_gui: checked args silent=0 clean=0 overview=0
+2016-04-10T19:09:10Z ipc_priv::init_ipc_server: new pipe \\.\pipe\ipc3_1_ISLAlwaysOn (0000023C) 0
+2016-04-10T19:09:10Z aon_main::main_gui: created IPC 03E3FDD8
+2016-04-10T19:09:10Z aon_main::main_gui: creating gui
+2016-04-10T19:09:10Z hefa::ipc::run: pipe loop
+2016-04-10T19:09:10Z qt: Warning: libpng warning: Interlace handling should be turned on when using png_read_image
+2016-04-10T19:09:10Z qt: Warning: QString::arg: Argument missing: damien77.lebrun@gmail.com, ISL Online Network
+2016-04-10T19:09:10Z parse_filter: checking 
+2016-04-10T19:09:10Z aon_connection_set: rebuild_reg_connections 0 - count 1
+2016-04-10T19:09:10Z aon_connection: added new connecttion 0-Grid\ISL Online Network
+2016-04-10T19:09:10Z aon_connection_set: registering 1 - 440ccc15795318ce2a2ac181b5fe49e75e505b16fb7026ed5f0d36e0daaf9b58edaebca8e21206c7aad4d839166825755c61513eb02931df969a06c4d37f3283_ISL Online Network_ in connections
+2016-04-10T19:09:11Z aon_connection_set: ipcCommand share
+2016-04-10T19:09:11Z qt: Warning: QString::arg: Argument missing: damien77.lebrun@gmail.com, ISL Online Network
+2016-04-10T19:09:11Z aon_connection: check_connect2 1
+2016-04-10T19:09:11Z aon_connection: connect rpc_null=1
+2016-04-10T19:09:11Z control_rpc: starting new connection thread to 0 - Grid\ISL Online Network
+2016-04-10T19:09:11Z control_rpc: before new control_rpc
+2016-04-10T19:09:11Z control_rpc: creating server connect thread...
+2016-04-10T19:09:11Z control_rpc: creating new thread pool...
+2016-04-10T19:09:11Z control_rpc: executing on thread pool...
+2016-04-10T19:09:11Z aon_connection: check_connect2 1
+2016-04-10T19:09:11Z aon_connection: connect rpc_null=0
+2016-04-10T19:09:11Z mux: requesting new server: alwayson-*.islonline.net
+2016-04-10T19:09:11Z mux: new server connection to alwayson-*.islonline.net on 1 append s_
+2016-04-10T19:09:11Z mux: starting new connection to alwayson-*.islonline.net (this=66893480)
+2016-04-10T19:09:11Z mux: try 1
+2016-04-10T19:09:11Z AutoTransport: added [:7615] to destination
+2016-04-10T19:09:11Z AutoTransport: destination: [alwayson-*.islonline.net:7615]
+2016-04-10T19:09:11Z AutoTransport: original destination: []
+2016-04-10T19:09:11Z AutoTransport: destination address was set to [alwayson-bqwvksw.islonline.net]
+2016-04-10T19:09:11Z AutoTransport: connection list: [alwayson-bqwvksw.islonline.net]
+2016-04-10T19:09:11Z AutoTransport: direct ports: [7615], HTTP=true, HTTPS=true
+2016-04-10T19:09:11Z AutoTransport: HTTP tunnel port: 80, HTTPS tunnel port: 443
+2016-04-10T19:09:11Z AutoTransport: initialized
+2016-04-10T19:09:11Z AutoTransport: trying to get a transport (7 secs timeout)
+2016-04-10T19:09:11Z AutoTransport: TCP connection to alwayson-bqwvksw.islonline.net:7615 (1000)
+2016-04-10T19:09:11Z NetMT WSA win32: GetAddrInfoW node=[alwayson-bqwvksw.islonline.net] service=7615 hints={ai_flags=0x0,ai_family=AF_UNSPEC,ai_socktype=SOCK_STREAM,ai_protocol=IPPROTO_TCP,ai_canonname=[],ai_addr={}}
+2016-04-10T19:09:11Z NetMT WSA win32: ... {ai_flags=0x0,ai_family=AF_INET,ai_socktype=SOCK_STREAM,ai_protocol=IPPROTO_TCP,ai_canonname=[],ai_addr={ss_family=AF_INET,sin_addr=136.243.57.156,sin_port=7615}}
+2016-04-10T19:09:11Z NetMT WSA win32: WSAConnect name={ss_family=AF_INET,sin_addr=136.243.57.156,sin_port=7615}
+2016-04-10T19:09:11Z NetMT WSA win32: (ok) WSAConnect {ss_family=AF_INET,sin_addr=136.243.57.156,sin_port=7615}
+2016-04-10T19:09:11Z AutoTransport: success direct
+2016-04-10T19:09:11Z Reconnect transport: response: [HTTP/1.1 200 OK
+Server: server330-*.islonline.net
+State: 0
+
+]
+2016-04-10T19:09:11Z Reconnect queue: new state for sent = 0, old sent = 0, last in buffer = 0, received = 0
+2016-04-10T19:09:11Z mux: --- starting MUX
+2016-04-10T19:09:11Z MUXV: georeconnect is disabled
+2016-04-10T19:09:11Z MUXV: received response: [HTTP/1.0 200 OK
+Connection-Data: Y3BfcHJvdG9jb2wLATEtMzQEAWdyaWRfaWQHATQ0MGNjYzE1Nzk1MzE4Y2UyYTJhYzE4MWI1ZmU0OWU3NWU1MDViMTZmYjcwMjZlZDVmMGQzNmUwZGFhZjliNThlZGFlYmNhOGUyMTIwNmM3YWFkNGQ4MzkxNjY4MjU3NTVjNjE1MTNlYjAyOTMxZGY5NjlhMDZjNGQzN2YzMjgzgAFncmlkX25hbWUJAUlTTCBPbmxpbmUgTmV0d29yaxIBa2V5X2NzBgEtLS0tLUJFR0lOIENFUlRJRklDQVRFLS0tLS0NCk1JSUJqakNCK0FJSkFOaXdqU3VKdnZKak1BMEdDU3FHU0liM0RRRUJCUVVBTUF3eENqQUlCZ05WQkFNVEFURXcNCkhoY05NRGt3TVRJek1EZzBPVFExV2hjTk16WXdOakE1TURnME9UUTFXakFNTVFvd0NBWURWUVFERXdFeE1JR2YNCk1BMEdDU3FHU0liM0RRRUJBUVVBQTRHTkFEQ0JpUUtCZ1FES2VYT1BtLzAvcFU3M2dsNWd5b24rek9DdlVUdVANCktyWVRVOTRHMU16QjVTbFZVandhS0ZIZkNiZWZnK0prZUNmbzhOTHQrc3JpTzFMQXBwQ0ttTGhMZWNmMEtOUU4NCm8zeHJ6MUhFamFDYXFrY1hhZ3dKZWhxN0tFUUltNzNxOEJnbnFIbk55QVVDcFdnMkpvdkVNQWNYRFFZK09FZG4NCkdaRjFJd001VEVSMWx3SURBUUFCTUEwR0NTcUdTSWIzRFFFQkJRVUFBNEdCQUJmd0ZnZHNuaTNVb295VTZTWjQNCjBDSmhXZHUzZUEvaEM4WFl1SUdhUmRrMU5KbG5JdUttMzNFcG16MG5FKzY0V1N0K3d6MURLODlQS1FXWFVlUlUNCnVTeks1UlFtSHFON2ZBenpYSmhYT0gvT0RIVlpzcVRUL0RweXBqSGVvVUVhRDJFM2pHcnFhSDZNOENPdGJ2ckMNCkYyVE1OTGFiQ0ZjUC9UbmZxUEM4WDhiaw0KLS0tLS1FTkQgQ0VSVElGSUNBVEUtLS0tLQ0KYgICBAE=
+Protocol: MUXV2
+Public-Ip: 83.112.57.137
+Server: ISLCP/4.3.0beta79 server330-spgsmmtaja.islonline.net server330-*.islonline.net
+Udp-Service-Address: server330.islonline.net
+Udp-Service-Ports: 7615
+
+]
+2016-04-10T19:09:11Z MUXV: response is OK
+2016-04-10T19:09:11Z MUXV: using saved server certificate
+2016-04-10T19:09:11Z MUXV: saving new public IP [83.112.57.137]
+2016-04-10T19:09:11Z MUXV: UDP destination [server330.islonline.net:7615]
+2016-04-10T19:09:11Z MUXV: using server provided connection keys
+2016-04-10T19:09:11Z MUXV: saving key [key_cc_cert]
+2016-04-10T19:09:11Z MUXV: saving key [key_cc_key]
+2016-04-10T19:09:11Z MUXV: saving key [key_cs]
+2016-04-10T19:09:11Z MUXV: saving key [key_hash]
+2016-04-10T19:09:11Z MUXV: saving key [key_ss]
+2016-04-10T19:09:11Z mux: established programs channel 2
+2016-04-10T19:09:11Z mux: established actions channel 3
+2016-04-10T19:09:11Z mux: done (connected=1) (error=)
+2016-04-10T19:09:11Z mux: opening new MUX channel: ISL_AON
+2016-04-10T19:09:11Z mux: new channel id: 4 on server id 1
+2016-04-10T19:09:11Z control_rpc: connection established 0-Grid\ISL Online Network
+2016-04-10T19:09:12Z control_rpc:  ok(1): got language
+2016-04-10T19:09:12Z control_rpc:  ok(1): got protocol
+2016-04-10T19:09:12Z control_rpc:  ok(1): IPs: server sees us as 83.112.57.137 we have 192.168.1.104
+2016-04-10T19:09:12Z aon_connection: registering comp
+2016-04-10T19:09:12Z control_rpc:  registering
+2016-04-10T19:09:12Z control_rpc: get_quid a8315cf7-6986-dd44-8b-b4-6f-be-e6-d4-43-13-5612-de72e05500000000-90926900-714e5ac403000000
+2016-04-10T19:09:12Z control_rpc:  ok(1): got register
+2016-04-10T19:09:12Z aon_connection: on_rpc_registered
+2016-04-10T19:09:12Z aon_connection_reg: changed 0 Grid
+2016-04-10T19:09:12Z aon_connection: settings are same for alwayson-*.islonline.net(0)
+2016-04-10T19:09:12Z qt: Warning: QString::arg: Argument missing: damien77.lebrun@gmail.com, ISL Online Network
+2016-04-10T19:09:12Z aon_connection_set: rebuild_reg_connections 0 - count 1
+2016-04-10T19:09:13Z aon_connection: check_connect2 1
+2016-04-10T19:09:13Z aon_connection: connect rpc_null=0
+2016-04-10T19:09:14Z control_rpc:  ok(1): got get_list
+2016-04-10T19:09:14Z control_rpc:  ok(1): got list ISL Online Network(0) : cli_list(1)
+2016-04-10T19:09:14Z aon_connection: on_rpc_update_cli_list 1
+2016-04-10T19:09:14Z qt: Warning: QString::arg: Argument missing: damien77.lebrun@gmail.com, ISL Online Network
+2016-04-10T19:09:17Z hefa::ipc::run: exiting pipe loop
